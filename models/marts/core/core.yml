@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: braz_ecom
+    database: pbdw_p  
+    schema: source_acq  
+    tables:
+      - name: order_payments
+      - name: orders
+      - name: order_items
+      - name: sellers
+      - name: Products
+      
