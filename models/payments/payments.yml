@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: settlement_status
-  - columns:
+    columns:
       - name: payment_method
         tests:
           - not_null
