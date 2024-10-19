@@ -1,0 +1,9 @@
+select 
+order_id,
+payment_method,
+PAYMENT_SEQUENTIAL,
+payment_installments,
+payment_value,
+Dw_Updt_Dte
+ from
+ {{ref('stg_payment')}}
