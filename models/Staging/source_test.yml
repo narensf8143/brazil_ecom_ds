@@ -25,6 +25,16 @@ models:
       - name: order_id
         tests:
           - not_null
+      - name: payment_method
+        tests:
+          - accepted_values:
+              values: ['credit_card', 'bank_cheque', 'debit_card', 'not_defined', 'voucher']
+              
+
+
+
+
+                
   - name: stg_products
     columns:
       - name: product_id

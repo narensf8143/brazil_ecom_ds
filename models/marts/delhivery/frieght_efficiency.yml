@@ -6,5 +6,8 @@ models:
       - name: frieght_efficiency_Catgy
         tests:
           - not_null
-              
-
+      - name: frieght_efficiency
+        tests:
+          - not_null:
+              config:
+                where: "frieght_efficiency >= 0"
