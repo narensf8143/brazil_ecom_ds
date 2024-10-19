@@ -11,5 +11,3 @@ Dw_Updt_Dte
 
 from
 {{ref('stg_orders')}}
-
-        

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: frieght_efficiency
+    columns:
+      - name: frieght_efficiency_Catgy
+        tests:
+          - not_null
+              
+
