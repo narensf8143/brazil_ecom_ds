@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: dim_customer
-  - columns:
+    columns:
       - name: customer_id
         tests:
           - not_null
@@ -10,7 +10,7 @@ models:
       - name: customer_unique_id
         tests:
           - not_null
-          
+
               
           
   
